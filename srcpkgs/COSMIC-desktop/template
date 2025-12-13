@@ -1,0 +1,38 @@
+# Template file for 'COSMIC-desktop'
+pkgname=COSMIC-desktop
+version=1.0.0
+revision=1
+metapackage=yes
+short_desc="COSMIC meta-package for Void Linux"
+maintainer="wbohrer <willbohrer@proton.me>"
+license="GPL-3.0-or-later"
+homepage="https://system76.com/cosmic"
+
+depends="
+	cosmic-applets>=${version}
+	cosmic-applibrary>=${version}
+	cosmic-bg>=${version}
+	cosmic-comp>=${version}
+	cosmic-edit>=${version}
+	cosmic-files>=${version}
+	cosmic-greeter>=${version}
+	cosmic-icons>=${version}
+	cosmic-idle>=${version}
+	cosmic-initial-setup>=${version}
+	cosmic-launcher>=${version}
+	cosmic-notifications>=${version}
+	cosmic-osd>=${version}
+	cosmic-panel>=${version}
+	cosmic-player>=${version}
+	cosmic-randr>=${version}
+	cosmic-screnshot>=${version}
+	cosmic-session>=${version}
+	cosmic-settings>=${version}
+	cosmic-settings-daemon>=${version}
+	cosmic-store>=${version}
+	cosmic-term>=${version}
+	cosmic-wallpapers>=${version}
+	cosmic-workspaces-epoch>=${version}
+	pop-launcher>=${version}
+	xdg-desktop-portal-cosmic>=${version}
+"

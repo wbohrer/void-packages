@@ -1,0 +1,14 @@
+# Template file for 'cosmic-applets'
+pkgname=cosmic-applets
+version=1.0.0
+revision=1
+build_style=cargo
+hostmakedepends="pkg-config cargo just"
+makedepends="dbus-devel eudev-libudev-devel libxkbcommon-devel wayland-devel
+libinput-devel pulseaudio-devel pipewire-devel clang21-devel"
+short_desc="Panel applets for COSMIC"
+maintainer="wbohrer <willbohrer@proton.me>"
+license="GPL-3.0-or-later"
+homepage="https://system76.com/cosmic"
+distfiles="https://github.com/pop-os/cosmic-applets/archive/epoch-${version}.tar.gz"
+checksum=c834e415e1fc6bfcfb79ffed6bb049c7d024563894bbaf547718d44393b5ca38

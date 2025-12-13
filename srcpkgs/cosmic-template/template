@@ -1,0 +1,14 @@
+# Template file for 'cosmic-template'
+pkgname=cosmic-template
+version=1.0.0
+revision=1
+build_style=cargo
+hostmakedepends="cargo just"
+makedepends=""
+depends=""
+short_desc="<> for COSMIC"
+maintainer="wbohrer <willbohrer@proton.me>"
+license="GPL-3.0-or-later"
+homepage="https://system76.com/cosmic"
+distfiles="https://github.com/pop-os/<>/archive/epoch-${version}.tar.gz"
+checksum=badbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadb

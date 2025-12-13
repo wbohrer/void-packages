@@ -1,0 +1,15 @@
+# Template file for 'cosmic-comp'
+pkgname=cosmic-comp
+version=1.0.0
+revision=1
+build_style=cargo
+hostmakedepends="pkg-config cargo cmake"
+makedepends="fontconfig-devel libgbm-devel libinput-devel pixman-devel
+libseat-devel wayland-devel libxcb-devel libxkbcommon-devel
+libdisplay-info-devel eudev-libudev-devel"
+short_desc="Wayland compositor for COSMIC"
+maintainer="wbohrer <willbohrer@proton.me>"
+license="GPL-3.0-or-later"
+homepage="https://system76.com/cosmic"
+distfiles="https://github.com/pop-os/cosmic-comp/archive/epoch-${version}.tar.gz"
+checksum=7b1ab157d28bf9663bcd84d20203f512cb1ee80650a363a7d9fbab97b7615b35
